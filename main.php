@@ -1,6 +1,12 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+<body>
 <h2>Aplikasi Harga Barang</h2>
 <hr>
-<a href="tambah.php">Tambah Data</a>
+<a class="btn btn-info" href="tambah.php">Tambah Data</a>
 
 <?php
 include "koneksi.php";
@@ -44,3 +50,5 @@ if($data->num_rows <= 0) {
 }
 ?>
 </table>
+</body>
+</html>
