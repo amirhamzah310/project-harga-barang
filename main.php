@@ -25,12 +25,15 @@ $data = $koneksi->query($qry);
 
 ?>
 
-<table border="1">
+<table border="1" class="table">
+<thead>
     <tr>
         <th>KODE</th>
         <th>NAMA BARANG</th>
         <th>HARGA</th>
     </tr>
+</thead>
+<tbody>
 <?php
 if($data->num_rows <= 0) {
     echo "<tr><td>";
@@ -50,6 +53,7 @@ if($data->num_rows <= 0) {
     }
 }
 ?>
+</tbody>
 </table>
 </div>
 </body>
