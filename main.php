@@ -4,6 +4,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="container">
 <h2>Aplikasi Harga Barang</h2>
 <hr>
 <a class="btn btn-info" href="tambah.php">Tambah Data</a>
@@ -50,5 +51,6 @@ if($data->num_rows <= 0) {
 }
 ?>
 </table>
+</div>
 </body>
 </html>
