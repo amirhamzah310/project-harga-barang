@@ -1,3 +1,7 @@
+## Project Harga Barang
+
+[![Build Status](https://travis-ci.org/tamami-phb/project-harga-barang.svg?branch=master)](https://travis-ci.org/tamami-phb/project-harga-barang)
+
 Langkah-langkahnya:
 
 1. buat repository di github.com
