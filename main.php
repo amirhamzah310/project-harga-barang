@@ -25,7 +25,7 @@ $data = $koneksi->query($qry);
 
 ?>
 
-<table border="1" class="table">
+<table class="table">
 <thead>
     <tr>
         <th>KODE</th>
